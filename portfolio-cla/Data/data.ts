@@ -1,10 +1,10 @@
 
 
 export const BaseInfo = {
-    name: "Tai Chowdhury",
+    name: "Tai",
     position: "Software Engineer",
     description:
-      "Hello!!! My name is Taifinkaba Chowdhury but everyone calls me Tai. My tech journey began in 2016 with a spark of curiosity and a push from family. Through high school programs like ScriptEd, I gained hands-on experience with HTML, CSS, jQuery, and JavaScript—eventually interning at American Express as a front-end developer. After earning an Associate’s degree in Computer Science, I continued growing through practical experience. I recently completed The Marcy Lab School, learning about React, Node.js, Knex.js, SQL, PostgreSQL, and earning a certificate in Full Stack Software Engineering. Now I’m focused on expanding my skills and pursuing opportunities in tech. I’m passionate about building clean, readable code and solving real-world problems through thoughtful software development!",
+      "Hello!!! My name is Taifinkaba but everyone calls me Tai. My tech journey began in 2016 with a spark of curiosity and a push from family. Through high school programs like ScriptEd, I gained hands-on experience with HTML, CSS, jQuery, and eventually interning at American Express as a front-end developer. After earning an Associate’s degree in Computer Science, I continued growing through practical experience. I recently completed The Marcy Lab School, learning about React, Node.js, Knex.js, SQL, PostgreSQL, and earning a certificate in Full Stack Software Engineering. Now I’m focused on expanding my skills and pursuing opportunities in tech. I’m passionate about building clean, readable code and solving real-world problems through thoughtful software development!",
     profilePic: "/images/FullBodyHeadShot.jpg",
   };
   
