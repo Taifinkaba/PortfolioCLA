@@ -3,3 +3,24 @@
 /* @tailwind base;
 @tailwind components;
 @tailwind utilities; */
+
+/* @layer components{
+    .nav__link{
+        @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 text-white after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-right
+
+    }
+} */
+
+@layer components {
+    .nav__link {
+      @apply relative text-base font-medium w-fit block text-white;
+    }
+  
+    .nav__link::after {
+      @apply block content-[''] absolute h-[3px] bg-yellow-400 w-full scale-x-0 transition duration-300 origin-right;
+    }
+  
+    .nav__link:hover::after {
+      @apply scale-x-100 origin-left;
+    }
+  }
