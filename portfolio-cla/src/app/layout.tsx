@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
+import Navbar from "../../components/Home/Navbar/Nav";
 // Geist, Geist_Mono
 
 const font = Sora({
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
         className={font.className}
       >
+        <Navbar />
         {children}
       </body>
     </html>
