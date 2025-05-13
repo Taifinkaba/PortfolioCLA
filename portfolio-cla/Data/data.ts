@@ -181,6 +181,7 @@ export const BaseInfo = {
         "Discover why TypeScript is the top choice for JavaScript developers ready to level up their coding skills and build more reliable applications.",
       date: "December 3, 2024",
       image: "/images/Blog1.png",
+      url: "https://dev.to/taifinkaba/from-javascript-to-typescript-a-beginners-guide-to-typescript-eb5",
     },
     {
       id: 2,
@@ -189,6 +190,7 @@ export const BaseInfo = {
         "Unlock the full potential of your React apps with Next.js—learn how this powerful framework takes performance, scalability, and TypeScript support to the next level.",
       date: "January 13, 2025",
       image: "/images/Blog2Thumbnail2.png",
+      url: "https://dev.to/taifinkaba/building-next-level-apps-how-nextjs-enhances-what-react-can-do-eo9",
     },
   ];
   

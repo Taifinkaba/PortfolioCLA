@@ -9,11 +9,12 @@ type Props ={
         summary: string;
         date: string;
         image: string;
+        url: string;
     }
 }
 
 const BlogCard = ({blog}: Props) => {
-    const {date, image, summary, title} = blog;
+    const {date, image, summary, title, url} = blog;
 
   return (
     // card
@@ -50,9 +51,11 @@ const BlogCard = ({blog}: Props) => {
             <div className='flex items-center justify-between'>
 
                 <h1 className='text-sm text-gray-300 font-bold'>{date}</h1>
+                <a href={url} target="_blank" rel="noopener noreferrer">
                 <button className='text-base hover:text-rose-500 text-gray-200 underline font-bold'>
                     Read More
                 </button>
+                </a>
 
             </div>
 
