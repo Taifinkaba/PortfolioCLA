@@ -86,7 +86,7 @@ const About = () => {
                 className='mx-auto'
                 />
                 <p className='mt-3 font-bold text-xl text-white  text-center'>{aboutInfo.experience}</p>
-                <p className='text-base sm:text-lg text-gray-400'>Years</p>
+                <p className='text-base sm:text-lg text-gray-400 text-center'>Years</p>
             </div>
 
             {/* Stats 3 */}

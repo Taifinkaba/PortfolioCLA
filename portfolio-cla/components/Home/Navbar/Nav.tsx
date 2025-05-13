@@ -38,14 +38,13 @@ const Navbar = () => {
     >
         <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
             {/* Logo */}
-            {/* <Image src="/images/PortfolioLogo.png" alt="LOGO" width={100} height={100} className='rounded-b-lg ml-[-1.5rem] sm:ml-0' /> */}
             <Image 
-  src="/images/PortfolioLogo.png" 
-  alt="LOGO" 
-  width={90} 
-  height={90} 
-  className='rounded-full ml-[-1.5rem] sm:ml-0' 
-/>
+            src="/images/PortfolioLogo.png" 
+            alt="LOGO" 
+            width={90} 
+            height={90} 
+            className='rounded-full ml-[-1.5rem] sm:ml-0' 
+            />
 
 
             {/* Navbar Links */}
@@ -60,7 +59,7 @@ const Navbar = () => {
               }
               </div>
             </div>
-            
+
         </div>
     </div>
   )
