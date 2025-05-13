@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
 
+// Prop
 type Props ={
     children: ReactNode;
 };
