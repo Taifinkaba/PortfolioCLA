@@ -9,13 +9,13 @@ export const BaseInfo = {
   };
   
   export const aboutInfo = {
-    title: "Crafting Web Application with Passion and Precision",
+    title: "Full-Stack Software Engineer | Problem Solver | Tech Enthusiast",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
+      "I'm a certified software engineer with a strong foundation in building full-stack web applications using modern technologies like React, Next.js, and Express. My journey began with a passion for tech and grew through hands-on learning at the Marcy Lab School, where I brought real-world ideas to life. I specialize in crafting clean, responsive frontends with HTML, CSS, JavaScript, and TypeScript—leveraging frameworks like Tailwind and Next.js to deliver fast, user-friendly experiences. On the backend, I work with Node.js, Express, and PostgreSQL to build scalable APIs and data-driven systems. With a background in both project management and software development, I thrive in agile environments, collaborating across teams to turn ideas into polished, production-ready apps. I'm currently sharpening my skills and seeking opportunities to contribute to a mission-driven team that values innovation and collaboration.",
+    client: "2+",
     experience: "3+",
-    project: "200+",
-    website: "100+",
+    project: "5+",
+    website: "2+",
   };
   
   export const servicesData = [
@@ -76,43 +76,18 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
-      image: "/images/p1.png",
-      url: "https://agency-opal-eight.vercel.app/",
+      image: "/images/PokemonProject.png",
+      url: "https://thekhitai.github.io/MarcyPokeDex/",
     },
     {
       id: 2,
-      image: "/images/p2.png",
-      url: "https://burger-pearl.vercel.app/",
+      image: "/images/PaTaiProject.png",
+      url: "https://www.youtube.com/watch?v=Ww2N4OC2rcA",
     },
     {
       id: 3,
-      image: "/images/p3.png",
-      url: "https://game-ecommerce-yt.vercel.app/",
-    },
-    {
-      id: 4,
-      image: "/images/p4.png",
-      url: "https://elearning-yt.vercel.app/",
-    },
-    {
-      id: 5,
-      image: "/images/p5.png",
-      url: "https://invest-peach.vercel.app/",
-    },
-    {
-      id: 6,
-      image: "/images/p6.png",
-      url: "https://job-chi-ruby.vercel.app/",
-    },
-    {
-      id: 7,
-      image: "/images/p7.png",
-      url: "https://wdw-ecom.vercel.app/",
-    },
-    {
-      id: 8,
-      image: "/images/p8.png",
-      url: "https://webhost-ten.vercel.app/",
+      image: "/images/Tether.png",
+      url: "https://www.youtube.com/watch?v=NuARFIK1Q-Q&t=2s",
     },
   ];
   
@@ -197,42 +172,7 @@ export const BaseInfo = {
     },
     
   ];
-  
-  // export const clientReviews = [
-  //   {
-  //     name: "John Doe",
-  //     review:
-  //       "Exceptional service! The team delivered exactly what we needed on time. Very professional",
-  //     rating: 5,
-  //     profession: "Marketing Manager",
-  //     image: "/images/u1.jpg",
-  //   },
-  //   {
-  //     name: "Jane Smith",
-  //     review:
-  //       "Highly skilled developers who understand the client's vision and execute perfectly.",
-  //     rating: 4.8,
-  //     profession: "Business Owner",
-  //     image: "/images/u2.jpg",
-  //   },
-  //   {
-  //     name: "Michael Johnson",
-  //     review:
-  //       "Great communication and excellent results. Our new site performs beautifully.",
-  //     rating: 4.6,
-  //     profession: "Project Coordinator",
-  //     image: "/images/u3.jpg",
-  //   },
-  //   {
-  //     name: "Emily Brown",
-  //     review:
-  //       "Professional, efficient, and highly knowledgeable. Would definitely recommend their services!",
-  //     rating: 4.9,
-  //     profession: "Creative Director",
-  //     image: "/images/u4.jpg",
-  //   },
-  // ];
-  
+
   export const blogs = [
     {
       id: 1,
