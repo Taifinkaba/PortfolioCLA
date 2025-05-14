@@ -3,6 +3,7 @@ import SectionHeading from '../../Helper/SectionHeading'
 import { skillsData } from '../../../Data/data'
 import SkillCard from './SkillCard'
 
+// skillscard is being used here
 const Skills = () => {
   return (
     <div className='pt-16 pb-16 bg-[#0f0715]'>
