@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 items-center gap-12'>
                 {/* image */}
                 <div className='mx-auto hidden lg:block rounded-[3rem] border-[6px] border-blue-950 overflow-hidden'>
-                    <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={500} height={500}   className='rounded-[3rem]'  />
+                    <Image src={BaseInfo.profilePic} alt={BaseInfo.name} width={450} height={450}   className='rounded-[3rem]'  />
                 </div>
 
                 {/* text */}
