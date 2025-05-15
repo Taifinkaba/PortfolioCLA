@@ -150,7 +150,7 @@ export const BaseInfo = {
     {
       id: 12,
       title: "PostgreSQL",
-      image: "/images/POstgreSQL.svg",
+      image: "/images/PostgreSQL.svg",
     },
     {
       id: 13,
