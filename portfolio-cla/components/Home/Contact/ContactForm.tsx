@@ -9,8 +9,8 @@ const ContactForm = () => {
         <Image 
           src={BaseInfo.profilePic} 
           alt={BaseInfo.name} 
-          width={500} 
-          height={500} 
+          width={450} 
+          height={450} 
           className='rounded-[3rem]' 
         />
       </div>
