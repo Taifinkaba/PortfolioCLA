@@ -38,13 +38,15 @@ const Navbar = () => {
     >
         <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[80%] mx-auto'>
             {/* Logo */}
-            <Image 
-            src="/images/PortfolioLogo.png" 
-            alt="LOGO" 
-            width={90} 
-            height={90} 
-            className='rounded-full ml-[-1.5rem] sm:ml-0' 
-            />
+            <Link href='#Home'>
+              <Image 
+              src="/images/PortfolioLogo.png" 
+              alt="LOGO" 
+              width={90} 
+              height={90}
+              className='rounded-full ml-[-1.5rem] sm:ml-0' 
+              />
+            </Link>
 
 
             {/* Navbar Links */}
