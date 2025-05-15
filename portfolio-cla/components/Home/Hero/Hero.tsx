@@ -21,7 +21,7 @@ const Hero = () => {
                     </h1>
 
                     {/* title */}
-                    <h1 className='text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[4rem] text-white'>
+                    <h1 className='text-bg text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold md:leading-[3rem] lg:leading-[3.5rem] xl:leading-[6rem] text-white pb-2'>
                         {BaseInfo.position}
                     </h1>
 
