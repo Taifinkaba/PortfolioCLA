@@ -3,15 +3,22 @@
 export const BaseInfo = {
     name: "Tai",
     position: "Software Engineer",
-    description:
-      "Hello!!! My name is Taifinkaba but everyone calls me Tai. My tech journey began in 2016 with a spark of curiosity and a push from family. Through high school programs like ScriptEd, I gained hands-on experience with HTML, CSS, jQuery, and eventually interning at American Express as a front-end developer. After earning an Associate’s degree in Computer Science, I continued growing through practical experience. I recently completed The Marcy Lab School, learning about React, Node.js, Knex.js, SQL, PostgreSQL, and earning a certificate in Full Stack Software Engineering. Now I’m focused on expanding my skills and pursuing opportunities in tech. I’m passionate about building clean, readable code and solving real-world problems through thoughtful software development!",
+    description: [
+      "My tech journey began in 2016 with a spark of curiosity and a push from family. Through high school programs like ScriptEd, I gained hands-on experience and eventually interned at American Express as a front-end developer.",
+      "After earning an Associate’s degree in Computer Science, I continued growing through The Marcy Lab School and earning a certificate in Full Stack Software Engineering.",
+      "Now I’m focused on expanding my skills and solving real-world problems through thoughtful software development!",
+    ],
     profilePic: "/images/FullBodyHeadShot.jpg",
   };
   
   export const aboutInfo = {
     title: "Full-Stack Software Engineer | Problem Solver | Tech Enthusiast",
-    description:
-      "I'm a certified software engineer with a strong foundation in building full-stack web applications using modern technologies like React, Next.js, and Express. My journey began with a passion for tech and grew through hands-on learning at the Marcy Lab School, where I brought real-world ideas to life. I specialize in crafting clean, responsive frontends with HTML, CSS, JavaScript, and TypeScript—leveraging frameworks like Tailwind and Next.js to deliver fast, user-friendly experiences. On the backend, I work with Node.js, Express, and PostgreSQL to build scalable APIs and data-driven systems. With a background in both project management and software development, I thrive in agile environments, collaborating across teams to turn ideas into polished, production-ready apps. I'm currently sharpening my skills and seeking opportunities to contribute to a mission-driven team that values innovation and collaboration.",
+    description: [
+      "I'm a certified software engineer with a strong foundation in building full-stack web applications using modern technologies like React, Next.js, and Express.",
+      "I specialize in crafting clean, responsive frontend projects with JavaScript and TypeScript leveraging frameworks to deliver fast, user-friendly experiences.",
+      "On the backend, I work to build scalable APIs and data-driven systems.",
+      "With a background in both product management and software development, I thrive in agile environments, collaborating across teams to turn ideas into polished, production-ready apps.",
+      ],
     client: "2+",
     experience: "3+",
     project: "5+",
@@ -183,6 +190,8 @@ export const BaseInfo = {
   
   export const contactData = {
     phone: "N/A",
+    linkedin: "https://www.linkedin.com/in/taifinkabachowdhury/",
+    github:"https://github.com/Taifinkaba",
     email: "taifinkabad@gmail.com",
     address: "New York , NY",
   };

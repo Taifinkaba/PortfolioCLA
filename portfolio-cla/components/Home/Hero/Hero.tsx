@@ -26,15 +26,22 @@ const Hero = () => {
                     </h1>
 
                     {/* description */}
-                    <p className='mt-6 text-sm md:text-base text-white text-opacity-60'>
-                        {BaseInfo.description}
-                    </p>
+                    <div className='mt-6 text-sm md:text-base text-white text-opacity-60 space-y-4'>
+                        {BaseInfo.description.map((paragraph, index) => (
+                        <p key={index}>{paragraph}</p>
+                        ))}
+                    </div>
 
-                    {/* button */}
-                    <button className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2'>
-                        <span>Download  CV</span>
-                        <FaDownload />
-                    </button>
+                    {/* button to resume*/}
+                    <a 
+                    href='https://docs.google.com/document/d/1QiuLNSztV99R0RQcMSB7BFVO4KJiAvO1UpaVmJ_WKns/edit?usp=sharing' 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <button className='md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex items-center space-x-2'>
+                            <span>Live CV</span>
+                            <FaDownload />
+                        </button>
+                    </a>
 
                 </div>
 

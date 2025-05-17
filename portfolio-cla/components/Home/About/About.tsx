@@ -15,9 +15,13 @@ const About = () => {
                 {aboutInfo.title}
             </h1>
 
-            <p className='mt-6  text-base text-gray-500'>
-                {aboutInfo.description}
-            </p>
+            <div className='mt-6 space-y-4'>
+                {aboutInfo.description.map((paragraph, index) => (
+                <p key={index} className='text-base text-gray-400 leading-relaxed'>
+                    {paragraph}
+                </p>
+                ))}
+            </div>
 
             {/* Check Card 1 */}
             <div className='mt-8'>
@@ -56,7 +60,33 @@ const About = () => {
                         Full Stack Development
                     </p>
                 </div>
+
+                {/* Check  Card 4 */}
+                <div className='flex items-center space-x-2 mb-6'>
+                    {/* Check Mark */}
+                    <div className='w-7 h-7 bg-blue-800 flex flex-col items-center justify-center'>
+                        <FaCheck className='text-white' />
+                    </div>
+
+                    <p className='text-sm sm:text-base md:text-lg font-bold text-gray-300'>
+                        Product Manager
+                    </p>
+                </div>
+
+                {/* Check  Card 5 */}
+                <div className='flex items-center space-x-2 mb-6'>
+                    {/* Check Mark */}
+                    <div className='w-7 h-7 bg-orange-800 flex flex-col items-center justify-center'>
+                        <FaCheck className='text-white' />
+                    </div>
+
+                    <p className='text-sm sm:text-base md:text-lg font-bold text-gray-300'>
+                        SCRUM Master
+                    </p>
+                </div>
+           
             </div>
+
 
         </div>
 
