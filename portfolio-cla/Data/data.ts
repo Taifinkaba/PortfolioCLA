@@ -83,18 +83,31 @@ export const BaseInfo = {
   export const projectData = [
     {
       id: 1,
+      name: "Pokedex",
       image: "/images/PokemonProject.png",
-      url: "https://thekhitai.github.io/MarcyPokeDex/",
+      github: "https://github.com/thekhitai/MarcyPokeDex",
+      live: "https://thekhitai.github.io/MarcyPokeDex/",
+      description:
+        "A Pokédex web app that fetches data from an API to display Pokémon names, types, and stats. Built with HTML, CSS, and JavaScript.",
     },
     {
       id: 2,
+      name: "PaTais Meal",
       image: "/images/PaTaiProject.png",
-      url: "https://www.youtube.com/watch?v=Ww2N4OC2rcA",
+      github: "https://github.com/PaTai-s/React-Project-",
+      youtube: "https://www.youtube.com/watch?v=Ww2N4OC2rcA",
+      description: 
+        "Used the MealDB api to build a functional cookbook in react showcasing their ability in group projects and knowledge in React.js, HTML, CSS, and Javascript.",
     },
     {
       id: 3,
+      name: "Tether",
       image: "/images/Tether.png",
-      url: "https://www.youtube.com/watch?v=NuARFIK1Q-Q&t=2s",
+      github: "https://github.com/Thread-Weavers/Tether",
+      live: "https://tether-xd0d.onrender.com/",
+      youtube: "https://www.youtube.com/watch?v=NuARFIK1Q-Q&t=2s",
+      description: 
+        "This web app seeks to enhance mental health support by creating a safe, anonymous platform that connects individuals facing similar challenges. By pairing users with accountability partners, we empower them to stay committed to their mental health routines while fostering meaningful connections to combat feelings of isolation. This platform encourages open dialogue and mutual understanding, enabling users to share their experiences, celebrate progress, and access a supportive community without the pressure of formal therapy. Ultimately, our mission is to enhance well-being and resilience among users, providing them with the tools they need to navigate their mental health journeys collaboratively.",
     },
   ];
   
