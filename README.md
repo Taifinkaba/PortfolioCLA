@@ -1,2 +1,2 @@
 # PortfolioCLA
-this is thee portfolio that will be used for job hunting, it will utilize typescript, tailwind and nextjs
+This portfolio will be used to showcase my work and skills, leading to projects, blogs, and skills I have accumulated over the years. It utilizes typescript, tailwind, and Next.js
