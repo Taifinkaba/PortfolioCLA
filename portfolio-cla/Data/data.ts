@@ -109,6 +109,33 @@ export const BaseInfo = {
       description: 
         "This web app seeks to enhance mental health support by creating a safe, anonymous platform that connects individuals facing similar challenges. By pairing users with accountability partners, we empower them to stay committed to their mental health routines while fostering meaningful connections to combat feelings of isolation. This platform encourages open dialogue and mutual understanding, enabling users to share their experiences, celebrate progress, and access a supportive community without the pressure of formal therapy. Ultimately, our mission is to enhance well-being and resilience among users, providing them with the tools they need to navigate their mental health journeys collaboratively.",
     },
+    {
+      id: 4,
+      name: "WOS Tools",
+      image: "/images/WOSToolsProject.png",
+      github: "https://github.com/Taifinkaba/WhiteoutSurvivalTools",
+      live: "https://wos-tools.vercel.app/",
+      description:
+        "A resource optimization web tool for the game Whiteout Survival that helps players calculate upgrade costs and plan efficient progression. Built to provide fast, accurate calculations and guides for managing in-game resources.",
+    },
+
+    {
+      id: 5,
+      name: "Bridge4Youth",
+      image: "/images/Bridge4YouthProject.png",
+      live: "https://www.bridge4youth.com/",
+      description:
+        "A platform designed to make resources and opportunities more accessible to youth in New York City. The site connects users to jobs, shelters, education programs, internships, and other community initiatives.",
+    },
+
+    {
+      id: 6,
+      name: "Black Girls Smile – Capstone",
+      image: "/images/BlackGirlsSmileProject.png",
+      live: "https://capstone-bgs1.vercel.app/",
+      description:
+        "A mental health resource platform designed to help users find culturally competent providers, events, and support networks. Built to improve accessibility to mental health services through an intuitive and supportive web experience.",
+    }
   ];
   
   export const skillsData = [
