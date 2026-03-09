@@ -40,10 +40,10 @@ const Navbar = () => {
             {/* Logo */}
             <Link href='#Home'>
               <Image 
-              src="/images/PortfolioLogo.png" 
+              src="/images/PortfolioLogo (2).png" 
               alt="LOGO" 
-              width={90} 
-              height={90}
+              width={300} 
+              height={300}
               className='rounded-full ml-[-1.5rem] sm:ml-0' 
               />
             </Link>
