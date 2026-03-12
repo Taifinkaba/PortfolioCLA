@@ -138,6 +138,7 @@ export const BaseInfo = {
     }
   ];
   
+  
   export const skillsData = [
     {
       id: 1,
